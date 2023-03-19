@@ -1,56 +1,142 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>百度一下，你就知道</title>
-    </head>
-    <body>
-        <div class="web-outer">
-            <div id="head">
-                <div id="top-left">
-                    <a href="http://news.baidu.com/" target="_blank">新闻</a>
-                    <a href="https://www.hao123.com" target="_blank">hao123</a>
-                    <a href="http://map.baidu.com" target="_blank">地图</a>
-                    <a href="http://tieba.baidu.com" target="_blank">贴吧</a>
-                    <a href="https://haokan.baidu.com/" target="_blank">视频</a>
-                    <a href="http://image.baidu.com/" target="_blank">图片</a>
-                    <a href="https://pan.baidu.com/" target="_blank">网盘</a>
-                </div>
-                <div id="top-right">
-                    <div id="top-login-btn">登录</div>
-                </div>
-            </div>
-            <div id="outer-mid">
-                <div id="mid">
-                    <div id="logo-outer">
-                        <figure id="logo" title="点击一下，了解更多"></figure>
-                    </div>
-                    <div id="search-div">
-                        <div id="search-input">
-                            <input>
-                            <div id="search-btn">百度一下</div>
-                        </div>
-                    </div>
-                    <div id="hot-title">百度热榜</div>
-                    <ul id="hot">
-                        <li>
-                            <span class="hot-order hot-order-1">1</span><span class="hot-content">沙伊两国在北京握手言和</span><span class="hot-tag hot">热</span>
-                        </li>
-                        <li>
-                            <span class="hot-order">4</span><span class="hot-content">TES主教练暂离赛场</span>
-                        </li>
-                        <!-- TODO: 完成剩余部分的代码 -->
-                    </ul>
-                </div>
-            </div>
-            <div id="footer">本网页仅用于软工实验使用</div>
-            <!-- 引入核心代码，请不要修改 -->
-            <script src="code/index.js"></script>
+<head>
+    <meta charset="utf-8">
+    <title>百度一下，你就知道</title>
+    <link rel="stylesheet" href="附件/style.css">
+</head>
+<body>
+<div class="web-outer">
+    <div id="head">
+        <div id="top-left">
+            <a href="http://news.baidu.com/" target="_blank">新闻</a>
+            <a href="https://www.hao123.com" target="_blank">hao123</a>
+            <a href="http://map.baidu.com" target="_blank">地图</a>
+            <a href="http://tieba.baidu.com" target="_blank">贴吧</a>
+            <a href="https://haokan.baidu.com/" target="_blank">视频</a>
+            <a href="http://image.baidu.com/" target="_blank">图片</a>
+            <a href="https://pan.baidu.com/" target="_blank">网盘</a>
         </div>
-        <style>
-            #logo{
-                background-image: url('./img/logo.png');
-            }
-        </style>
-    </body>
+        <div id="top-right">
+            <div id="top-login-btn">登录</div>
+        </div>
+    </div>
+    <div id="outer-mid">
+        <div id="mid">
+            <div id="logo-outer">
+                <figure id="logo" title="点击一下，了解更多"></figure>
+            </div>
+            <div id="search-div">
+                <div id="search-input">
+                    <input>
+                    <div id="search-btn">百度一下</div>
+                </div>
+            </div>
+            <!--            <div id="hot-title">百度热榜</div>-->
+            <!--            <ul id="hot">-->
+            <!--                <li>-->
+            <!--                    <span class="hot-order hot-order-1">1</span>-->
+            <!--                    <span class="hot-content">沙伊两国在北京握手言和</span>-->
+            <!--                    <span class="hot-tag hot">热</span>-->
+            <!--                </li>-->
+            <!--                <li>-->
+            <!--                    <span class="hot-order">4</span>-->
+            <!--                    <span class="hot-content">TES主教练暂离赛场</span>-->
+            <!--                </li>-->
+            <!--                &lt;!&ndash; TODO: 完成剩余部分的代码 &ndash;&gt;-->
+
+
+            <!--            </ul>-->
+            <!--        </div>-->
+            <div style="
+            padding:10px 0 0 0;
+            margin:0 auto;
+            width: fit-content;
+            line-height: 20px;
+            font-size: 17px;
+            font-family:'Arial','Microsoft YaHei';
+            font-weight: 400;
+            color: #53a5fa">
+                <div>
+                    <img src="img/game.png" alt="game" style="padding:0 0 0 0;height: 20px;vertical-align:top">
+                    热榜之《21371508》分榜
+                    <div style="color: #9195a3;font-size: 13px;display:inline-block;padding: 0 0 0 7px;vertical-align: text-top;">
+                        更多<img src="img/right.png" alt="" height="8px" style="margin: 0;padding: 0;"></div>
+                </div>
+                <ul style="color:black;font-size:15px;list-style: none; line-height: 35px;margin: 10px 0 0 2px;padding: 7px 0 0 0">
+                    <li style="position: relative;margin-bottom: 10px">
+                        <img src="img/genshin.jpg" alt="genshin"
+                             style="height: 100px;border-radius: 10px 10px 10px 10px;vertical-align: top">
+                        <div style="border-radius: 10px 0 10px 0;background-color:red;position: absolute;left: 0;top: 0;width: 20px;height: 20px;line-height: 20px;text-align:center;color: white;font-size: 13px;">
+                            1
+                        </div>
+                        <div style="margin: 0 0 0 12px;display: inline-block;font-size: 13px;line-height: 25px;">
+                            <p style="margin: 5px 0 0 0;padding: 0;">原神</p>
+                            <p style="color: #7e7e86;margin: 0;padding: 0;">热搜指数：324853<img src="img/up.png"
+                                                                                                alt="up"
+                                                                                                style="height: 16px;vertical-align: text-bottom">
+                            </p>
+                            <p style="color: #9f9f9f;margin: 0;padding: 0;">手机游戏</p>
+                        </div>
+                    </li>
+                    <li><span style="float: right;color: #9195a3;font-size: 13px">168931 <img alt="no_img" height="15px"
+                                                                                              style="vertical-align: text-bottom;display:inline-block;margin-left: 2px;"
+                                                                                              src="img/up.png"></span><b
+                            style="margin-right: 6px;font-weight: 400;color: darkorange">2 </b>香肠派对
+                    </li>
+                    <li><span style="float: right;color: #9195a3;font-size: 13px">161167 <img alt="no_img" height="15px"
+                                                                                              style="vertical-align: text-bottom;display:inline-block;margin-left: 2px;"
+                                                                                              src="img/heng.png"></span><b
+                            style="margin-right: 6px;font-weight: 400;color: orange">3 </b>王者荣耀
+                    </li>
+                    <li><span style="float: right;color: #9195a3;font-size: 13px">127320 <img alt="no_img" height="15px"
+                                                                                              style="vertical-align: text-bottom;display:inline-block;margin-left: 2px;"
+                                                                                              src="img/up.png"></span><b
+                            style="margin-right: 6px;font-weight: 400;color: #9195a3;">4 </b>我的世界
+                    </li>
+                    <li><span style="float: right;color: #9195a3;font-size: 13px">123379 <img alt="no_img" height="15px"
+                                                                                              style="vertical-align: text-bottom;display:inline-block;margin-left: 2px;"
+                                                                                              src="img/heng.png"></span><b
+                            style="margin-right: 6px;font-weight: 400;color: #9195a3;">5 </b>和平精英
+                    </li>
+                    <li><span style="float: right;color: #9195a3;font-size: 13px">88496 <img alt="no_img" height="15px"
+                                                                                             style="vertical-align: text-bottom;display:inline-block;margin-left: 2px;"
+                                                                                             src="img/up.png"></span><b
+                            style="margin-right: 6px;font-weight: 400;color: #9195a3;">6 </b>植物大战僵尸
+                    </li>
+                    <li><span style="float: right;color: #9195a3;font-size: 13px">79547 <img alt="no_img" height="15px"
+                                                                                             style="vertical-align: text-bottom;display:inline-block;margin-left: 2px;"
+                                                                                             src="img/up.png"></span><b
+                            style="margin-right: 6px;font-weight: 400;color: #9195a3;">7 </b>迷你世界
+                    </li>
+                    <li><span style="float: right;color: #9195a3;font-size: 13px">76194 <img alt="no_img" height="15px"
+                                                                                             style="vertical-align: text-bottom;display:inline-block;margin-left: 2px;"
+                                                                                             src="img/heng.png"></span><b
+                            style="margin-right: 6px;font-weight: 400;color: #9195a3;">8 </b>光遇
+                    </li>
+                    <li><span style="float: right;color: #9195a3;font-size: 13px">54000 <img alt="no_img" height="15px"
+                                                                                             style="vertical-align: text-bottom;display:inline-block;margin-left: 2px;"
+                                                                                             src="img/up.png"></span><b
+                            style="margin-right: 6px;font-weight: 400;color: #9195a3;">9 </b>泰拉瑞亚
+                    </li>
+                    <li><span style="float: right;color: #9195a3;font-size: 13px">49095 <img alt="no_img" height="15px"
+                                                                                             style="vertical-align: text-bottom;display:inline-block;margin-left: 2px;"
+                                                                                             src="img/up.png"></span><b
+                            style="margin-right: 2px;font-weight: 400;color: #9195a3;">10</b>绝地求生
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer">本网页仅用于软工实验使用</div>
+        <!-- 引入核心代码，请不要修改 -->
+        <script src="code/index.js"></script>
+        <script src="附件/index.js"></script>
+    </div>
+    <style>
+        #logo {
+            background-image: url('./img/logo.png');
+        }
+    </style>
+</div>
+</body>
 </html>
